@@ -28,6 +28,9 @@ public:
     ///* state covariance matrix
     MatrixXd P_;
 
+    ///* Measurement matrix for lidar
+    MatrixXd H_;
+
     ///* predicted sigma points matrix
     MatrixXd Xsig_pred_;
 
